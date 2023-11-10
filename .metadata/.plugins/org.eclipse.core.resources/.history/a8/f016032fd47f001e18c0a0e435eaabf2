@@ -1,0 +1,7 @@
+package lab18;
+
+public class Racingcar extends Car {
+
+	private String driver;
+	private int turboFactor;
+}

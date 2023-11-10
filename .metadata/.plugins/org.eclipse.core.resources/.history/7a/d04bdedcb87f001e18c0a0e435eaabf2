@@ -1,0 +1,19 @@
+package lab17;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Submarine sub1 = new Submarine(5, 10, null, 157);
+		Plane plane1 = new Plane(2, 7, null, 245);
+		
+		plane1.climb(60);
+		
+		plane1.land();
+		
+		System.out.println(plane1.land());
+
+	}
+
+}

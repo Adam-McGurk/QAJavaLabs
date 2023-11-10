@@ -1,0 +1,15 @@
+package lab04;
+
+import java.util.Scanner;
+
+public class Lab4 {
+	
+	public static int getInt(String prompt) {
+		System.out.println(prompt);
+		Scanner s = new Scanner(System.in);
+
+		return s.nextInt();
+		
+	}
+
+}

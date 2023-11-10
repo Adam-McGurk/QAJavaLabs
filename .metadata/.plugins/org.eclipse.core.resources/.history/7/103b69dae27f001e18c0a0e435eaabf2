@@ -1,0 +1,21 @@
+package lab18;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Car[] cars = {new Car("ford");, "audi", "porshe", "vauxhall", "farrari"};
+		
+		
+	}
+	
+	public String processCars(String cars) {
+		for(c : cars) {
+			
+			
+		}
+		
+	}
+
+}

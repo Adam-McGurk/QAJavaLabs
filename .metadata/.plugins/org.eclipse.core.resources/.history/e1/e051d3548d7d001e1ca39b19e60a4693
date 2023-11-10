@@ -1,0 +1,27 @@
+package lab02;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		int age = 22;
+		String name = "Adam";
+		int houseNumber = 11;
+		String street = "Fake st";
+		String postcode = "NE12PW";
+		String teleNum = "07484462476";
+		String company = "Digital Solutions";
+		double salary = 19500;
+		boolean driversLicence = true;
+		
+		System.out.println("you are " + age + " years old");
+		System.out.println("your name is " + name);
+		System.out.println("You live at " + houseNumber + " " + street + " " + postcode);
+		System.out.println("your telephone number is " + teleNum);
+		System.out.println("you work at " + company);
+		System.out.println("your salary is " + salary);
+		System.out.println("You have a drivers licence? " + driversLicence);
+		
+	}
+
+}

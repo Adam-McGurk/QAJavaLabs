@@ -1,0 +1,20 @@
+package lab08;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Account account1 = new Account(01,"John Doe", 5.0);
+		Account myAccount = new Account(02,"Me", 100);
+		
+		
+		account1.deposit(20.0);
+		account1.withdraw(5.0);
+		
+		account1.getDetails();
+		
+
+	}
+
+}

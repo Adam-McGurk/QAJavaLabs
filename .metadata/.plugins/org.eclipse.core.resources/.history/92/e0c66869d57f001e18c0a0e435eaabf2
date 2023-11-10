@@ -1,0 +1,44 @@
+package lab18;
+
+public class Racingcar extends Car {
+
+	private String driver;
+	private int turboFactor;
+	
+	
+	public Racingcar(String model, int speed, String driver, int turboFactor) {
+		super(model, speed);
+		this.driver = driver;
+		this.turboFactor = turboFactor;
+	}
+
+
+	public String getDriver() {
+		return driver;
+	}
+
+
+	public void setDriver(String driver) {
+		this.driver = driver;
+	}
+
+
+	public int getTurboFactor() {
+		return turboFactor;
+	}
+
+
+	public void setTurboFactor(int turboFactor) {
+		this.turboFactor = turboFactor;
+	}
+	
+	public String getModel() {
+		return model;
+	}
+	
+	public void accelerate(int seconds) {
+		speed *= 0.5;
+	}
+	
+	
+}

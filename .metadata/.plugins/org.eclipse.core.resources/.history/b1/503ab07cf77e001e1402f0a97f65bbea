@@ -1,0 +1,9 @@
+package lab08;
+
+public class Account {
+	
+	private int id;
+	private String owner;
+	private double balance;
+
+}

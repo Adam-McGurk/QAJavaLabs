@@ -1,0 +1,26 @@
+package lab08;
+
+public class Account {
+	
+	private int id;
+	private String owner;
+	private double balance;
+	
+	public void deposit(double amount) {
+		
+		if(amount <= 0.0) {
+			System.out.println("You cannot add negative or no money into your account");
+		
+		}else {
+			
+			this.amount += balance;
+		}
+		
+		
+	}
+	
+	public void withdraw(double amount) {
+		
+	}
+
+}

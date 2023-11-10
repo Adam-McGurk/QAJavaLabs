@@ -1,0 +1,17 @@
+package lab08;
+
+public class Account {
+	
+	private int id;
+	private String owner;
+	private double balance;
+	
+	public void deposit(double amount) {
+		
+	}
+	
+	public void withdraw(double amount) {
+		
+	}
+
+}

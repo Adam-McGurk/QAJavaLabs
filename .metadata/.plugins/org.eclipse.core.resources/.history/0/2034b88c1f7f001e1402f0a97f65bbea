@@ -1,0 +1,35 @@
+package lab04;
+
+import java.util.Scanner;
+
+public class Lab4 {
+	
+	public static int getInt(String prompt) {
+		System.out.println(prompt);
+		Scanner s = new Scanner(System.in);
+
+		return s.nextInt();
+		
+	}
+	
+	public void part1() {
+		
+		int priceOfBag = getInt("Price of bag in pence please?");
+		
+		if(priceOfBag <=0) {
+			System.out.println("The price of a bag must cost more than 0 pence");
+			return;
+		}
+		
+		int money = getInt("how much money do you have in pence?");
+		
+		if(money <=0) {
+			System.out.println("Check your other pockets");
+			return;
+		
+		int canAfford = money / priceOfBag;
+		
+		System.out.println("if the price is " +  priceOfBag + "p  and you have " + money + "p  then you will be able to buy " + canAfford + " bags" );
+	}
+
+}
